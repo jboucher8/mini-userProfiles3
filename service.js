@@ -2,7 +2,7 @@ angular.module('userProfiles').service('mainService', function($http, $q) {
 
   this.getUsers = function() {
   	var deferred = $q.defer();
-  	console.log(11111111111, deferred)
+  	// console.log(11111111111, deferred)
     $http({
         method: 'GET',
         url: 'https://reqres.in/api/users?page=1'
